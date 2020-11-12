@@ -35,7 +35,7 @@ body {
 
 .grid-wrapper {
   display: grid;
-  grid-template-rows: 10vh 1fr 10vh;
+  grid-template-rows: 10vh 1fr; /*10vh;*/
   background: var(--white);
 }
 
@@ -342,10 +342,9 @@ header h3 a {
 }
 
 /*----- FOOTER -----*/
-
+/*
 footer {
   display: grid;
-  /*border: 1px solid green;*/
   place-items: center;
   color: var(--white);
 }
@@ -370,6 +369,7 @@ footer li {
   text-decoration: none;
   padding: 0.1rem;
 }
+*/
 
 /*----- MEDIA QUERIES-----*/
 @media (max-width: 1024px) {

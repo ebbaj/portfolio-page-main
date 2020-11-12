@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
-    
+
     <title>Projects</title>
   </head>
   <body>
@@ -23,12 +23,12 @@
 
       <main id="projects-main">
         <div class="projects-description">
-            <h1 class="projects-title">Projects</h1>
-            <p class="projects-text">
-                These are some of the projects I've been working on recently. Some of
-                them are personal projects and others are briefs I've done during my
-                time as a student at Hyper Island.
-            </p>
+          <h1 class="projects-title">Projects</h1>
+          <p class="projects-text">
+            These are some of the projects I've been working on recently. Some
+            of them are personal projects and others are briefs I've done during
+            my time as a student at Hyper Island.
+          </p>
         </div>
         <section id="projects-page" class="grid">
           <div class="box">
@@ -92,24 +92,70 @@
         </section>
       </main>
 
-      <footer>
-        <ul class="footer-icons">
-          <li>
-            <a href="mailto: ebba.jonsson@hyperisland.se"><i class="fas fa-envelope"></i></a>
-          </li>
-          <li>
-            <a href="https://github.com/ebbaj"><i class="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/ebbaj/?hl=sv"><i class="fab fa-instagram"></i>
-          </li></a>
-          <li><a href="#"><i class="fab fa-linkedin"></i></li></a>
-        </ul>
-        <p>&copy; 2020 Ebba Jonsson</p>
-      </footer>
+      <template>
+        <!-- CSS -->
+        <style>
+          footer {
+            display: grid;
+            min-height: 10vh;
+            place-items: center;
+            color: var(--white);
+          }
+
+          footer p {
+            font-size: 0.7rem;
+            color: var(--dark-blue);
+            padding-bottom: 0.3rem;
+          }
+
+          footer ul {
+            margin-top: 1rem;
+            list-style: none;
+          }
+
+          footer li {
+            display: inline;
+          }
+
+          .footer-icons a {
+            color: var(--dark-blue);
+            text-decoration: none;
+            padding: 0.1rem;
+          }
+        </style>
+
+        <!-- HTML -->
+        <footer>
+          <ul class="footer-icons">
+            <li>
+              <a href="mailto: ebba.jonsson@hyperisland.se"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/ebbaj"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ebbaj/?hl=sv"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+          <p>&copy; 2020 Ebba Jonsson</p>
+        </footer>
+      </template>
     </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
